@@ -1,0 +1,89 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url('forest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.soon {
+  background-image: url('coming soon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.content {
+    position:relative;
+    z-index:5;
+}
+
+.body {
+color: white;
+margin-top: 250px;
+margin-left: 40px;
+}
+
+.body h2{
+font-weight: normal;
+}
+
+.body h4{
+  font-weight: lighter;
+}
+
+.navigation{
+  padding-top:24px;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.navbar-right{
+  float:right;
+  padding-right:10%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:lighter;
+  letter-spacing: 1px;
+}
+
+.navbar-right a:hover{
+  color: rgb(182, 182, 182);
+}
+.navbar-logo{
+  padding-left:10%;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff; 
+}
+
+.navbar-logo img{
+     width: 200px;
+    position: absolute;
+    top: -15px;
+} 
